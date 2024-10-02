@@ -18,12 +18,26 @@ function FetchApi () {
   return (
 
     <div>
-        <h1>Weather Near Me </h1><br/>
+        <h1>Weather Near Me </h1><
+          
+          br/>
 
-        <button onClick={apiGet}>Fetch API</button>
+        {/* <button onClick={apiGet}>Fetch API</button> */}
         <br />
         
+
+
+
+
+
+<footer className="App-footer">
+
+
+<p> <button onClick={apiGet}>Fetch API</button> </p>
+
+</footer>
         </div>
+        
   )
 }
 
