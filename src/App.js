@@ -4,15 +4,8 @@ import FetchApi from './FetchApi';
 
 
 function App() {
-  
-  fetch("https://newsapi.org/v2/everything?domains=wsj.com&apiKey=ad0ff359859a4da0b612fa3afa048cdd")
-  .then((res) => res.json())
-  .then((data) => {
-    console.log(data);
-  })
-
     
-  return (
+    return (
     <div className="App">
 
 <FetchApi/>
