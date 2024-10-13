@@ -5,7 +5,25 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: grey;
 }
+
+.app{
+  background-color: grey;
+  text-align: center;
+  font-size: calc(10px + 10px);
+  font-weight: 700;
+  color: white;
+
+}
+ 
+.app input{
+  width: 40%;
+  border-radius: 10px;
+  background: white;
+}
+
+
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
